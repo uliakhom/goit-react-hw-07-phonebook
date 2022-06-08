@@ -10,7 +10,6 @@ const ContactList = ({ contacts, removeContact }) => {
       </button>
     </li>
   ));
-  console.log(elements);
   return <ul className={s.list}>{elements}</ul>;
 };
 
